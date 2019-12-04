@@ -1,0 +1,92 @@
+/** {*/
+/*    outline: 1px solid red;*/
+/*}*/
+html {
+    font-family: sans-serif;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 0 0 0;
+    background: #eeece9;
+}
+
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 960px;
+}
+
+/*headerのcss*/
+.info {
+    float: right;
+    /*padding-right: 50px;*/
+    font-size: 1px;
+}
+
+/*visualkeyのcss*!*/
+.visualkey {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.visualkey img {
+    width: 700px;
+}
+
+/*mainのcss*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav p {
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+    text-align: center;
+    line-height: 150px;
+    border: 1px solid black;
+}
+
+.left-picture {
+    float: left;
+}
+
+.left-picture img {
+    width: 480px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.right-picture img {
+    width: 480px;
+    padding-right: 10px;
+}
+
+.second-content {
+    clear: both;
+}
+
+.right-picture {
+    float: right;
+}
+
+.third-content {
+    clear: both;
+}
+
+.text {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+/*footerのcss*/
+.footer {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+}
